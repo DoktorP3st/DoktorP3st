@@ -2,7 +2,7 @@
 
 # Pestovich
 
-**Python Developer · Music Tooling · Game Macros · Twitch Streaming**
+**Python Developer · Music Tooling · AI Tooling · Game Macros · Twitch Streaming**
 
 Outils Windows locaux — rapides, sans serveur, sans abonnement.
 
@@ -10,6 +10,7 @@ Outils Windows locaux — rapides, sans serveur, sans abonnement.
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-1F6AA5?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude-Anthropic-D97706?style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML5%20%2F%20CSS3%20%2F%20JS-StreamElements-9146FF?style=flat-square&logo=twitch&logoColor=white)
 
 </div>
@@ -17,6 +18,28 @@ Outils Windows locaux — rapides, sans serveur, sans abonnement.
 ---
 
 ## Projets
+
+### 🤖 IA Vocal
+
+---
+
+#### [StreamOracle](https://github.com/Pestovich/StreamOracle)
+
+> Assistant IA vocal pour streamers Twitch — wake word, transcription Whisper locale (GPU), réponses Claude, synthèse vocale Microsoft Neural.
+
+```
+StreamOracle/
+├── app.py               Interface graphique (customtkinter)
+├── config.py            Paramètres centralisés
+└── core/
+    ├── listener.py      Capture micro · VAD RMS · Whisper · wake word
+    ├── brain.py         Claude Haiku · system prompt · historique multi-tours
+    └── voice.py         edge-tts async · lecture sounddevice
+```
+
+**Stack** — `faster-whisper` `anthropic` `edge-tts` `sounddevice` `miniaudio` `customtkinter`
+
+---
 
 ### 🎬 Outils musicaux
 
@@ -145,6 +168,10 @@ ForzaH6-RaceLoop-Macro/
 
 > Compteurs de morts interactifs pour stream Twitch — incrémentation clavier, animations, responsive.
 
+#### [CIPHER](https://github.com/Pestovich/Overlay-Twitch-CIPHER)
+
+> Chat overlay cyberpunk pour StreamElements — scanlines, glow néon, barres de signal, coins en L dans la couleur de chaque viewer.
+
 #### [Chat Overlay](https://github.com/Pestovich/Pestovich-Overlay-Chat-V1)
 
 > Overlay chat Twitch gratuit — design épuré, personnalisable, prêt pour StreamElements.
@@ -165,6 +192,7 @@ Overlays/
 | Domaine | Outils |
 |---|---|
 | **Audio / Vidéo** | `librosa` `soundfile` `scipy` `opencv-python` `Pillow` `FFmpeg` |
+| **IA / Vocal** | `anthropic` `faster-whisper` `edge-tts` `sounddevice` `miniaudio` |
 | **Interface** | `customtkinter` `tkinter` `tkinterdnd2` |
 | **Automation** | `pynput` `ctypes` `threading` `winsound` |
 | **Web / Stream** | `HTML5` `CSS3` `JavaScript` `OBS Browser Source` `StreamElements` |
