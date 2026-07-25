@@ -2,9 +2,9 @@
 
 # Pestovich
 
-**Python Developer · Music Tooling · AI Tooling · Game Macros · Twitch Streaming**
+**Python Developer · Music Tooling · AI Tooling · Game Macros · Twitch Streaming · Chrome Extensions**
 
-Outils Windows locaux — rapides, sans serveur, sans abonnement.
+Outils locaux & extensions navigateur — sans serveur, sans abonnement.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)
@@ -12,6 +12,7 @@ Outils Windows locaux — rapides, sans serveur, sans abonnement.
 ![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-1F6AA5?style=flat-square)
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-D97706?style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML5%20%2F%20CSS3%20%2F%20JS-StreamElements-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
 </div>
 
@@ -34,7 +35,7 @@ StreamOracle/
 └── core/
     ├── listener.py      Capture micro · VAD RMS · Whisper · wake word
     ├── brain.py         Claude Haiku · system prompt · historique multi-tours
-    └── voice.py         edge-tts async · lecture sounddevice
+    └── voice.py          edge-tts async · lecture sounddevice
 ```
 
 **Stack** — `faster-whisper` `anthropic` `edge-tts` `sounddevice` `miniaudio` `customtkinter`
@@ -114,13 +115,13 @@ TAC-Players-Music-Overlay/
 TAC-Extract-Lyrics/
 ├── eltac.py                 Point d'entrée
 └── src/
-    ├── api/                 Deezer · MusicBrainz · ListenBrainz · AudioDB
-    ├── core/                Config · errors · logger
-    ├── domain/              Models (Track, Lyrics, Playlist)
-    ├── services/            Curation · music service
-    ├── storage/             JSON store · repositories
-    ├── ui/                  Main window · widgets
-    └── utils/               Text helpers
+    ├── api/                  Deezer · MusicBrainz · ListenBrain · AudioDB
+    ├── core/                 Config · errors · logger
+    ├── domain/               Models (Track, Lyrics, Playlist)
+    ├── services/             Curation · music service
+    ├── storage/              JSON store · repositories
+    ├── ui/                   Main window · widgets
+    └── utils/                Text helpers
 ```
 
 **Stack** — `customtkinter` `requests` `Deezer API` `MusicBrainz API`
@@ -138,8 +139,8 @@ TAC-Extract-Lyrics/
 ```
 DiabloIV-Macro-ByPestovich/
 ├── ww_barb.py               Moteur macro + overlay Tkinter
-├── i18n.py                  Internationalisation
-└── locales/                 fr · en · de · es · it
+├── i18n.py                   Internationalisation
+└── locales/                  fr · en · de · es · it
 ```
 
 **Stack** — `pynput` `tkinter` `winsound` `ctypes`
@@ -187,6 +188,31 @@ Overlays/
 
 ---
 
+### 🌐 Extensions Chrome
+
+---
+
+#### [ZeroTrace by Pestovich](https://github.com/Pestovich/ZeroTrace-By-Pestovich) `v1.3.0`
+
+> Efface toutes les traces du navigateur en 1 clic — cookies, cache, historique, storage — avec whitelist pour protéger les sessions importantes.
+
+![Version](https://img.shields.io/badge/version-1.3.0-e63946?style=flat-square)
+![Manifest](https://img.shields.io/badge/Manifest-V3-00c896?style=flat-square)
+![Langues](https://img.shields.io/badge/langues-6-orange?style=flat-square)
+
+```
+ZeroTrace-By-Pestovich/
+├── manifest.json            MV3 — browsingData, cookies, storage
+├── background.js            Auto-clean onStartup · nuke-restore cookies
+├── popup.html / popup.js    Interface 1 clic + protect active tab
+├── options.html / options.js  Whitelist · cookie viewer · import/export · langue
+└── _locales/                EN · FR · ES · PT · DE · IT
+```
+
+**Stack** — `Manifest V3` `Chrome Extensions API` `HTML/CSS/JS`
+
+---
+
 ## Stack technique
 
 | Domaine | Outils |
@@ -196,6 +222,7 @@ Overlays/
 | **Interface** | `customtkinter` `tkinter` `tkinterdnd2` |
 | **Automation** | `pynput` `ctypes` `threading` `winsound` |
 | **Web / Stream** | `HTML5` `CSS3` `JavaScript` `OBS Browser Source` `StreamElements` |
+| **Extensions** | `Manifest V3` `Chrome Extensions API` `chrome.storage` `chrome.browsingData` |
 | **Persistance** | `JSON` `AppData` `pathlib` |
 | **Plateforme** | `Windows 10 / 11` `Python 3.11+` |
 
