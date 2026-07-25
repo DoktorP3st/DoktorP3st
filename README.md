@@ -2,236 +2,150 @@
 
 # Pestovich
 
-**Python Developer · Music Tooling · AI Tooling · Game Macros · Twitch Streaming · Chrome Extensions**
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/Lekarov/Lekarov/blob/main/README.fr.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Lekarov/Lekarov/blob/main/README.md)
 
-Outils locaux & extensions navigateur — sans serveur, sans abonnement.
+**Python Developer · Self-hosted Tools · Browser Extensions · Game Macros · Twitch Streaming**
 
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-1F6AA5?style=flat-square)
-![Claude](https://img.shields.io/badge/Claude-Anthropic-D97706?style=flat-square)
-![HTML5](https://img.shields.io/badge/HTML5%20%2F%20CSS3%20%2F%20JS-StreamElements-9146FF?style=flat-square&logo=twitch&logoColor=white)
+Local tools & open source — no server, no subscription.
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Self-hosted](https://img.shields.io/badge/self--hosted-always-success?style=flat-square)
+![Twitch](https://img.shields.io/badge/Twitch-Pestovich-9146FF?style=flat-square&logo=twitch&logoColor=white)
 
 </div>
 
 ---
 
-## Projets
-
-### 🤖 IA Vocal
+## Projects
 
 ---
 
-#### [StreamOracle](https://github.com/Pestovich/StreamOracle)
+### [ZeroTrace by Pestovich](https://github.com/Pestovich/ZeroTrace-By-Pestovich) — Chrome / Brave Extension
 
-> Assistant IA vocal pour streamers Twitch — wake word, transcription Whisper locale (GPU), réponses Claude, synthèse vocale Microsoft Neural.
+> Wipe all browser traces in one click — cookies, cache, history, storage — with whitelist protection for the sites you care about.
 
-```
-StreamOracle/
-├── app.py               Interface graphique (customtkinter)
-├── config.py            Paramètres centralisés
-└── core/
-    ├── listener.py      Capture micro · VAD RMS · Whisper · wake word
-    ├── brain.py         Claude Haiku · system prompt · historique multi-tours
-    └── voice.py          edge-tts async · lecture sounddevice
-```
+![Version](https://img.shields.io/badge/version-1.5.0-e63946?style=flat-square)
+![Manifest](https://img.shields.io/badge/Manifest-V3-00c896?style=flat-square)
+![License](https://img.shields.io/badge/license-GPL--v3-6b7491?style=flat-square)
+![Chrome](https://img.shields.io/badge/Chrome-Compatible-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Brave](https://img.shields.io/badge/Brave-Compatible-FB542B?style=flat-square&logo=brave&logoColor=white)
+![Languages](https://img.shields.io/badge/languages-6-orange?style=flat-square)
 
-**Stack** — `faster-whisper` `anthropic` `edge-tts` `sounddevice` `miniaudio` `customtkinter`
+One-click cleaning · Site whitelist · Cookie manager · Auto-clean on startup · Backup & Restore
 
 ---
 
-### 🎬 Outils musicaux
+### [Purgearr](https://github.com/Pestovich/Purgearr) — Self-hosted Media Manager
+
+> Kill the clutter. Keep the classics. One interface for your entire Jellyfin + Radarr + Sonarr + Transmission library.
+
+![Status](https://img.shields.io/badge/status-beta-orange?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-6b7491?style=flat-square)
+![Jellyfin](https://img.shields.io/badge/Jellyfin-00A4DC?style=flat-square&logo=jellyfin&logoColor=white) ![Radarr](https://img.shields.io/badge/Radarr-FFC230?style=flat-square) ![Sonarr](https://img.shields.io/badge/Sonarr-35C5F4?style=flat-square) ![Transmission](https://img.shields.io/badge/Transmission-CC0000?style=flat-square)
+![Platform](https://img.shields.io/badge/Raspberry%20Pi-NAS-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white)
+
+Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detection · Multi-user
 
 ---
 
-#### [TAC MP4 Studio](https://github.com/Pestovich/TAC-MP4-Studio) `v2.1`
+### [CIPHER](https://github.com/Pestovich/Overlay-Twitch-CIPHER) — Twitch Chat Overlay
 
-> Génère des vidéos musicales réactives frame by frame, beat by beat — export MP4 HD/vertical, sans cloud.
+> Cyberpunk chat overlay for StreamElements — scanlines, neon glow, signal bars, L-corners in each viewer's color.
+
+![Platform](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
+
+---
+
+### [StreamOracle](https://github.com/Pestovich/StreamOracle) — AI Vocal Assistant
+
+> Wake-word AI assistant for Twitch streamers — local Whisper transcription, Claude responses, Microsoft Neural TTS.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Whisper](https://img.shields.io/badge/faster--whisper-GPU-74aa9c?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude-Anthropic-D97706?style=flat-square)
+
+---
+
+### [DiabloIV Macro](https://github.com/Pestovich/DiabloIV-Macro-ByPestovich) — Game Automation
+
+> Whirlwind Barbarian automation overlay for Diablo IV — skill cooldowns, WW hold, auto potion. 5 languages.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Languages](https://img.shields.io/badge/languages-5-orange?style=flat-square)
+
+---
+
+### [TAC Players Music Overlay](https://github.com/Pestovich/TAC-Players-Music-Overlay) — OBS Now Playing
+
+> Python audio player with live OBS overlay — album art, title, animated progress bar.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OBS](https://img.shields.io/badge/OBS-Browser%20Source-302E31?style=flat-square&logo=obsstudio&logoColor=white)
+
+---
+
+### [BubuRog Die Counter](https://github.com/Pestovich/BubuRog-Die-Counter) — Twitch Death Counter
+
+> Real-time Twitch death counter overlay for BubuRog — keyboard increment, animations, StreamElements ready.
+
+![Platform](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Language](https://img.shields.io/badge/CSS%2FJS-black?style=flat-square)
+
+---
+
+### [TAC MP4 Studio](https://github.com/Pestovich/TAC-MP4-Studio) — Music Video Generator
+
+> Frame-by-frame, beat-by-beat reactive music video generator — HD / vertical export, no cloud.
 
 ![Version](https://img.shields.io/badge/version-2.1.0-7c3aed?style=flat-square)
-![librosa](https://img.shields.io/badge/librosa-audio%20analysis-FF6B35?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-NVENC%20%2F%20libx264-007808?style=flat-square)
 
-```
-TAC-MP4-Studio/
-├── main.py                  Point d'entrée
-├── requirements.txt
-├── app/
-│   ├── audio.py             Analyse STFT · onset · RMS · beats
-│   ├── renderer.py          Pipeline frame : image · texte · vignette · glow
-│   ├── spectrum.py          10 styles de spectre + orbe audio
-│   ├── vinyl.py             Disque vinyle VYNLE Studio v2
-│   ├── particles.py         Particules · fumée · plasma · lueur
-│   ├── exporter.py          Pipeline FFmpeg (NVENC GPU / libx264 CPU)
-│   ├── models.py            RenderSettings dataclass
-│   ├── presets.py           13 presets visuels + palettes
-│   ├── config.py            Persistance JSON (AppData)
-│   ├── errors.py            8 exceptions métier typées
-│   └── ui/
-│       ├── app.py           App — état · lifecycle · éditeur
-│       ├── editor.py        Onglets paramètres + callbacks
-│       ├── preview.py       Preview live 30 fps + waveform
-│       ├── pages.py         Accueil · historique
-│       └── widgets.py       Composants réutilisables
-```
+---
 
-**Stack** — `numpy` `opencv-python` `Pillow` `librosa` `soundfile` `scipy` `customtkinter` `FFmpeg`
+### [Mort-o-Mètre](https://github.com/Pestovich/Mort-o-M-tre) — Interactive Death Counter
+
+> Interactive Twitch overlay to track deaths, fails or events in real time — StreamElements & OBS ready.
+
+![Platform](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
 
 ---
 
-#### [TAC Players Music Overlay](https://github.com/Pestovich/TAC-Players-Music-Overlay)
+### Free Camera & Chat Overlays
 
-> Lecteur audio Python avec overlay OBS live — pochette, titre, barre de progression animée.
+Free StreamElements overlays — chat, 16:9 and 1:1 camera frames, OBS ready, no attribution required.
 
-```
-TAC-Players-Music-Overlay/
-├── main.py                  Lanceur
-├── overlay/
-│   ├── index.html           Overlay OBS (Browser Source)
-│   ├── script.js            Polling JSON + animations
-│   └── style.css            Thèmes visuels
-└── src/
-    ├── core/
-    │   ├── config.py        Paramètres utilisateur
-    │   └── scanner.py       Détection piste en cours
-    ├── player/
-    │   ├── engine.py        Moteur de lecture
-    │   └── writer.py        Export JSON → overlay
-    └── ui/
-        └── control.py       Interface de contrôle
-```
-
-**Stack** — `Python` `HTML/CSS/JS` `OBS Browser Source`
+[![Chat Overlay](https://img.shields.io/badge/Chat%20Overlay-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Chat-V1)
+[![Cam 16:9](https://img.shields.io/badge/Cam%2016%3A9-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Cam-16x9-V1)
+[![Cam 1:1](https://img.shields.io/badge/Cam%201%3A1-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Cam-1x1-V1)
 
 ---
 
-#### [TAC Extract Lyrics](https://github.com/Pestovich/TAC-Extract-Lyrics)
+## Tech stack
 
-> Explorateur de musique et paroles — multi-sources API, curation swipe, historique et listes de lecture.
-
-```
-TAC-Extract-Lyrics/
-├── eltac.py                 Point d'entrée
-└── src/
-    ├── api/                  Deezer · MusicBrainz · ListenBrain · AudioDB
-    ├── core/                 Config · errors · logger
-    ├── domain/               Models (Track, Lyrics, Playlist)
-    ├── services/             Curation · music service
-    ├── storage/              JSON store · repositories
-    ├── ui/                   Main window · widgets
-    └── utils/                Text helpers
-```
-
-**Stack** — `customtkinter` `requests` `Deezer API` `MusicBrainz API`
-
----
-
-### 🎮 Game Macros
-
----
-
-#### [DiabloIV Macro](https://github.com/Pestovich/DiabloIV-Macro-ByPestovich)
-
-> Overlay automation pour Barbare Tourbillon Diablo IV — cooldowns, maintien WW, potion automatique. 5 langues.
-
-```
-DiabloIV-Macro-ByPestovich/
-├── ww_barb.py               Moteur macro + overlay Tkinter
-├── i18n.py                   Internationalisation
-└── locales/                  fr · en · de · es · it
-```
-
-**Stack** — `pynput` `tkinter` `winsound` `ctypes`
-
----
-
-#### [Forza Horizon 6 — Race Loop Macro](https://github.com/Pestovich/ForzaH6-RaceLoop-Macro)
-
-> Boucle de courses automatisée pour Forza Horizon 6 — overlay live avec phases, timer et compteur de tours.
-
-```
-ForzaH6-RaceLoop-Macro/
-├── forza_race_loop.py       Moteur + overlay Tkinter
-└── launch.bat               Lanceur Windows
-```
-
-**Stack** — `pynput` `tkinter` `threading` `json`
-
----
-
-### 📺 Overlays Twitch — StreamElements / OBS
-
----
-
-#### [Mort-o-Mètre](https://github.com/Pestovich/Mort-o-M-tre) · [BubuRog Die Counter](https://github.com/Pestovich/BubuRog-Die-Counter)
-
-> Compteurs de morts interactifs pour stream Twitch — incrémentation clavier, animations, responsive.
-
-#### [CIPHER](https://github.com/Pestovich/Overlay-Twitch-CIPHER)
-
-> Chat overlay cyberpunk pour StreamElements — scanlines, glow néon, barres de signal, coins en L dans la couleur de chaque viewer.
-
-#### [Chat Overlay](https://github.com/Pestovich/Pestovich-Overlay-Chat-V1)
-
-> Overlay chat Twitch gratuit — design épuré, personnalisable, prêt pour StreamElements.
-
-#### [Cam Overlay 16:9](https://github.com/Pestovich/Pestovich-Overlay-Cam-16x9-V1) · [Cam Overlay 1:1](https://github.com/Pestovich/Pestovich-Overlay-Cam-1x1-V1)
-
-> Cadres caméra format 16:9 et 1:1 — libres d'utilisation, OBS ready.
-
-```
-Overlays/
-└── HTML + CSS + JS   (StreamElements / Browser Source OBS)
-```
-
----
-
-### 🌐 Extensions Chrome
-
----
-
-#### [ZeroTrace by Pestovich](https://github.com/Pestovich/ZeroTrace-By-Pestovich) `v1.3.0`
-
-> Efface toutes les traces du navigateur en 1 clic — cookies, cache, historique, storage — avec whitelist pour protéger les sessions importantes.
-
-![Version](https://img.shields.io/badge/version-1.3.0-e63946?style=flat-square)
-![Manifest](https://img.shields.io/badge/Manifest-V3-00c896?style=flat-square)
-![Langues](https://img.shields.io/badge/langues-6-orange?style=flat-square)
-
-```
-ZeroTrace-By-Pestovich/
-├── manifest.json            MV3 — browsingData, cookies, storage
-├── background.js            Auto-clean onStartup · nuke-restore cookies
-├── popup.html / popup.js    Interface 1 clic + protect active tab
-├── options.html / options.js  Whitelist · cookie viewer · import/export · langue
-└── _locales/                EN · FR · ES · PT · DE · IT
-```
-
-**Stack** — `Manifest V3` `Chrome Extensions API` `HTML/CSS/JS`
-
----
-
-## Stack technique
-
-| Domaine | Outils |
+| Domain | Tools |
 |---|---|
-| **Audio / Vidéo** | `librosa` `soundfile` `scipy` `opencv-python` `Pillow` `FFmpeg` |
-| **IA / Vocal** | `anthropic` `faster-whisper` `edge-tts` `sounddevice` `miniaudio` |
-| **Interface** | `customtkinter` `tkinter` `tkinterdnd2` |
-| **Automation** | `pynput` `ctypes` `threading` `winsound` |
-| **Web / Stream** | `HTML5` `CSS3` `JavaScript` `OBS Browser Source` `StreamElements` |
-| **Extensions** | `Manifest V3` `Chrome Extensions API` `chrome.storage` `chrome.browsingData` |
-| **Persistance** | `JSON` `AppData` `pathlib` |
-| **Plateforme** | `Windows 10 / 11` `Python 3.11+` |
+| **Backend** | `FastAPI` `Uvicorn` `SQLAlchemy` `APScheduler` |
+| **AI / Voice** | `anthropic` `faster-whisper` `edge-tts` `sounddevice` |
+| **Audio / Video** | `librosa` `opencv-python` `Pillow` `scipy` `FFmpeg` |
+| **Interface** | `customtkinter` `tkinter` `Jinja2` |
+| **Automation** | `pynput` `ctypes` `threading` |
+| **Extensions** | `Manifest V3` `Chrome Extensions API` `chrome.browsingData` |
+| **Web / Stream** | `HTML5` `CSS3` `JavaScript` `StreamElements` `OBS` |
+| **Platform** | `Windows 10 / 11` `Raspberry Pi` `Python 3.10+` |
 
 ---
 
 <div align="center">
 
-*Tous les projets sont locaux, open source et sans abonnement.*
+*All projects are local, open source and subscription-free.*
 
-🎮 [twitch.tv/Pestovich](https://twitch.tv/Pestovich)
+[twitch.tv/Pestovich](https://twitch.tv/Pestovich)
 
 </div>
