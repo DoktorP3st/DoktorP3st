@@ -23,7 +23,7 @@ Local tools & open source — no server, no subscription.
 
 ---
 
-### [ZeroTrace by Pestovich](https://github.com/Pestovich/ZeroTrace-By-Pestovich) — Chrome / Brave Extension
+### [ZeroTrace by Pestovich](https://github.com/Lekarov/ZeroTrace-By-Pestovich) — Chrome / Brave Extension
 
 > Wipe all browser traces in one click — cookies, cache, history, storage — with whitelist protection for the sites you care about.
 
@@ -37,7 +37,7 @@ One-click cleaning · Site whitelist · Cookie manager · Auto-clean on startup 
 
 ---
 
-### [Purgearr](https://github.com/Pestovich/Purgearr) — Self-hosted Media Manager
+### [Purgearr](https://github.com/Lekarov/Purgearr) — Self-hosted Media Manager
 
 > Kill the clutter. Keep the classics. One interface for your entire Jellyfin + Radarr + Sonarr + Transmission library.
 
@@ -51,7 +51,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [CIPHER](https://github.com/Pestovich/Overlay-Twitch-CIPHER) — Twitch Chat Overlay
+### [CIPHER](https://github.com/Lekarov/Overlay-Twitch-CIPHER) — Twitch Chat Overlay
 
 > Cyberpunk chat overlay for StreamElements — scanlines, neon glow, signal bars, L-corners in each viewer's color.
 
@@ -60,7 +60,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [StreamOracle](https://github.com/Pestovich/StreamOracle) — AI Vocal Assistant
+### [StreamOracle](https://github.com/Lekarov/StreamOracle) — AI Vocal Assistant
 
 > Wake-word AI assistant for Twitch streamers — local Whisper transcription, Claude responses, Microsoft Neural TTS.
 
@@ -70,7 +70,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [DiabloIV Macro](https://github.com/Pestovich/DiabloIV-Macro-ByPestovich) — Game Automation
+### [DiabloIV Macro](https://github.com/Lekarov/DiabloIV-Macro-ByPestovich) — Game Automation
 
 > Whirlwind Barbarian automation overlay for Diablo IV — skill cooldowns, WW hold, auto potion. 5 languages.
 
@@ -79,7 +79,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [TAC Players Music Overlay](https://github.com/Pestovich/TAC-Players-Music-Overlay) — OBS Now Playing
+### [TAC Players Music Overlay](https://github.com/Lekarov/TAC-Players-Music-Overlay) — OBS Now Playing
 
 > Python audio player with live OBS overlay — album art, title, animated progress bar.
 
@@ -88,7 +88,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [BubuRog Die Counter](https://github.com/Pestovich/BubuRog-Die-Counter) — Twitch Death Counter
+### [BubuRog Die Counter](https://github.com/Lekarov/BubuRog-Die-Counter) — Twitch Death Counter
 
 > Real-time Twitch death counter overlay for BubuRog — keyboard increment, animations, StreamElements ready.
 
@@ -97,7 +97,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [TAC MP4 Studio](https://github.com/Pestovich/TAC-MP4-Studio) — Music Video Generator
+### [TAC MP4 Studio](https://github.com/Lekarov/TAC-MP4-Studio) — Music Video Generator
 
 > Frame-by-frame, beat-by-beat reactive music video generator — HD / vertical export, no cloud.
 
@@ -107,7 +107,7 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 ---
 
-### [Mort-o-Mètre](https://github.com/Pestovich/Mort-o-M-tre) — Interactive Death Counter
+### [Mort-o-Mètre](https://github.com/Lekarov/Mort-o-M-tre) — Interactive Death Counter
 
 > Interactive Twitch overlay to track deaths, fails or events in real time — StreamElements & OBS ready.
 
@@ -120,9 +120,9 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 
 Free StreamElements overlays — chat, 16:9 and 1:1 camera frames, OBS ready, no attribution required.
 
-[![Chat Overlay](https://img.shields.io/badge/Chat%20Overlay-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Chat-V1)
-[![Cam 16:9](https://img.shields.io/badge/Cam%2016%3A9-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Cam-16x9-V1)
-[![Cam 1:1](https://img.shields.io/badge/Cam%201%3A1-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Pestovich/Pestovich-Overlay-Cam-1x1-V1)
+[![Chat Overlay](https://img.shields.io/badge/Chat%20Overlay-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Lekarov/Pestovich-Overlay-Chat-V1)
+[![Cam 16:9](https://img.shields.io/badge/Cam%2016%3A9-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Lekarov/Pestovich-Overlay-Cam-16x9-V1)
+[![Cam 1:1](https://img.shields.io/badge/Cam%201%3A1-v1-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://github.com/Lekarov/Pestovich-Overlay-Cam-1x1-V1)
 
 ---
 
