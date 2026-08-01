@@ -14,7 +14,6 @@ Outils locaux & open source — sans serveur, sans abonnement.
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![Self-hosted](https://img.shields.io/badge/self--hosted-toujours-success?style=flat-square)
-![Twitch](https://img.shields.io/badge/Twitch-Pestovich-9146FF?style=flat-square&logo=twitch&logoColor=white)
 
 </div>
 
@@ -145,7 +144,5 @@ Overlays StreamElements gratuits — chat, cadres caméra 16:9 et 1:1, OBS ready
 <div align="center">
 
 *Tous les projets sont locaux, open source et sans abonnement.*
-
-[twitch.tv/Pestovich](https://twitch.tv/Pestovich)
 
 </div>
