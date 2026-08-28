@@ -82,6 +82,13 @@ Never-watched detection · Dead torrent scanner · Whitelist · Hardlink detecti
 ![Platform](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
 ![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
 
+### [NOVA](https://github.com/Lekarov/Overlay-Twitch-NOVA) — Twitch Chat Overlay
+
+> Constellation chat overlay for StreamElements — each message becomes a star joining a continuous glowing thread. Optional night-sky background, or a frame-only mode to overlay directly on any content.
+
+![Platform](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
+
 ### [CIPHER](https://github.com/Lekarov/Overlay-Twitch-CIPHER) — Twitch Chat Overlay
 
 > Cyberpunk chat overlay for StreamElements — scanlines, neon glow, signal bars, L-corners in each viewer's color.

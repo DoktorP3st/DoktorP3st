@@ -82,6 +82,13 @@ Détection contenus jamais vus · Scanner torrents morts · Whitelist · Détect
 ![Plateforme](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
 ![Langage](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
 
+### [NOVA](https://github.com/Lekarov/Overlay-Twitch-NOVA) — Overlay Chat Twitch
+
+> Overlay de chat constellation pour StreamElements — chaque message devient une étoile qui rejoint un fil lumineux continu. Fond ciel nocturne optionnel, ou mode cadre seul pour superposer directement sur n'importe quel contenu.
+
+![Plateforme](https://img.shields.io/badge/StreamElements-OBS-9146FF?style=flat-square&logo=twitch&logoColor=white)
+![Langage](https://img.shields.io/badge/HTML%2FCSS%2FJS-black?style=flat-square)
+
 ### [CIPHER](https://github.com/Lekarov/Overlay-Twitch-CIPHER) — Overlay Chat Twitch
 
 > Overlay de chat cyberpunk pour StreamElements — scanlines, glow néon, barres de signal, coins en L dans la couleur de chaque viewer.
