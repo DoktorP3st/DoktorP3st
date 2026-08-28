@@ -155,6 +155,13 @@ Free StreamElements overlays — chat, camera frame (16:9 and 1:1), OBS ready, n
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Languages](https://img.shields.io/badge/languages-5-orange?style=flat-square)
 
+### [ForzaH6 Race Loop Macro](https://github.com/Lekarov/ForzaH6-RaceLoop-Macro) — Race Automation Overlay
+
+> Automated race loop for Forza Horizon 6 — live Tkinter overlay with phases, timer and lap counter.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-archived-lightgrey?style=flat-square)
+
 ---
 
 ## Tech stack

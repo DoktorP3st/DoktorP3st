@@ -155,6 +155,13 @@ Overlays StreamElements gratuits — chat, cadre caméra (16:9 et 1:1), OBS read
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Langues](https://img.shields.io/badge/langues-5-orange?style=flat-square)
 
+### [ForzaH6 Race Loop Macro](https://github.com/Lekarov/ForzaH6-RaceLoop-Macro) — Overlay d'automation de course
+
+> Boucle de courses automatisée pour Forza Horizon 6 — overlay Tkinter live avec phases, timer et compteur de tours.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Statut](https://img.shields.io/badge/statut-archivé-lightgrey?style=flat-square)
+
 ---
 
 ## Stack technique
